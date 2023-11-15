@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:PlanTodo/Modules/TodoNotifier.dart';
 import 'package:provider/provider.dart';
 import 'package:PlanTodo/DataBase/DataBase.dart';
-import 'package:sqflite/sqflite.dart';
 
 class DeletePopUp extends StatelessWidget {
   final WhatTodo selectedtodo;

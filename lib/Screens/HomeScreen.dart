@@ -1,7 +1,3 @@
-import 'package:PlanTodo/Endings/StoryLine.dart';
-import 'package:PlanTodo/Endings/TermsScreen.dart';
-import 'package:PlanTodo/Endings/TestScreen.dart';
-import 'package:PlanTodo/Endings/TrackScreen.dart';
 import 'package:PlanTodo/Modules/PlantNotifier.dart';
 import 'package:PlanTodo/Screens/PlantHistoryScreen.dart';
 import 'package:PlanTodo/Widgets/TodoListTile.dart';
@@ -89,47 +85,6 @@ class _HomeScreenState extends State<HomeScreen> {
                           });
                         },
                       ),
-                      GestureDetector(
-                        onTap: () {
-                          Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                  builder: (context) => TestScreen()));
-                        },
-                        child: Padding(
-                          padding: const EdgeInsets.symmetric(vertical: 4.0),
-                          child: Container(
-                              width: double.infinity,
-                              height: MediaQuery.of(context).size.height * 0.12,
-                              decoration: BoxDecoration(
-                                color: Theme.of(context).accentColor,
-                              ),
-                              child: Align(
-                                alignment: Alignment.centerLeft,
-                                child: Padding(
-                                  padding: const EdgeInsets.only(left: 20.0),
-                                  child: RichText(
-                                      text: TextSpan(children: [
-                                    TextSpan(
-                                        text: "지금 클릭해서 인공지능이 분석하는\n",
-                                        style: TextStyle(fontSize: 15.0)),
-                                    TextSpan(
-                                        text: "무료 성격 검사 받기!",
-                                        style: TextStyle(
-                                            fontFamily: 'BlackHanSans',
-                                            fontSize: 30.0,
-                                            fontWeight: FontWeight.normal)),
-                                    TextSpan(
-                                        text:
-                                            "\n인공지능은 이 앱에 없습니다. 뭐, 요즘 난리인게 인공지능이니\n인공지능이 분석해준다고 하면 클릭하겠죠?",
-                                        style: TextStyle(
-                                            fontSize: 8.0,
-                                            color: Colors.grey.shade300)),
-                                  ])),
-                                ),
-                              )),
-                        ),
-                      ),
                     ],
                   ),
                 ),
@@ -181,55 +136,6 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
           ),
         ),
-        Visibility(
-          visible: trackVisibility,
-          child: Align(
-            alignment: Alignment.center,
-            child: TrackScreen(
-              trackWidgetSubTextInput: trackWidgetSubText[i],
-              trackWidgetTitleInput: trackWidgetTitle[i],
-            ),
-          ),
-        ),
-        Visibility(
-            visible: showAgreement,
-            child: Center(
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                crossAxisAlignment: CrossAxisAlignment.center,
-                children: [
-                  Text(
-                    "동의가 없으면 사용 가능한 기능이 없습니다.\n모든 앱들이 그렇듯 말이죠.",
-                    style: Theme.of(context).textTheme.subtitle1,
-                    textAlign: TextAlign.center,
-                  ),
-                  Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: GestureDetector(
-                      onTap: () {
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => TermsScreen()));
-                      },
-                      child: Container(
-                        width: 200.0,
-                        height: 40.0,
-                        decoration: BoxDecoration(
-                          color: Theme.of(context).accentColor,
-                          borderRadius: BorderRadius.circular(10.0),
-                        ),
-                        child: Center(
-                            child: Text(
-                          "동의하러 가기",
-                          style: Theme.of(context).textTheme.subtitle1,
-                        )),
-                      ),
-                    ),
-                  )
-                ],
-              ),
-            )),
       ],
     );
   }

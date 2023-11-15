@@ -1,6 +1,5 @@
 import 'dart:convert';
 import 'package:PlanTodo/DataBase/PlantDataBase.dart';
-import 'package:PlanTodo/Endings/PlantabitPremium.dart';
 import 'package:PlanTodo/ListInput.dart';
 import 'package:PlanTodo/Modules/PlantNotifier.dart';
 import 'package:PlanTodo/Modules/TodoNotifier.dart';
