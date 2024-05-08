@@ -11,39 +11,33 @@ Here's a quick look of PLANTABIT:
 
 
 ## Background
-PLANTABIT doesn't host a server due to huge amount Carbon Dioxide. Also, cooling the server causes a lot of environmental damage.
+PLANTABIT doesn't host a server due to huge amount of Carbon Dioxide emition. Maintaining server causes a lot of environmental damage.
 
 ## Features
 
-- **Real-time rendering** of 2D maps into 3D projections.Of Course, IT'S 2D.
-- **TPS** inspired by <Resident Evil 4>, I made Third Person Shooter with Over-the-shoulder cam.
-- **Blog** written about the detail of each codes.
+- **Keep On Track** Local Database keeps your plans and how much you've completed.
+- **Confetti** When you sucess protecting environment, you get confetti! 
+- **Add Anything** You can add any task that you want to add.
 
-
-## Code BreakDown
-Code breakdown is in my tech blog. Urls is following. Posts of "Raycaster Breakdown N" is it.<br>
-[Tech-blog, I guess? by Dutch Vandaline](https://dutchvandaline.github.io/)
 
 ## Getting Started
-
 ### Prerequisites
 
-Before you begin, ensure you have met the following requirements:
+You can find this app only on <a href="https://apps.apple.com/us/app/plantabit/id1600635708">AppStore.
+If you want to run this app on IDE, ensure you have met the following requirements:
 
-- C/C++ installed on your machine
-- I recommend you to use Visual Studio if your using on Windows.
-- Animation Sprite of player and monster is divided from main code.
+- Dart/Flutter needs to be installed.
+- I recommend you to use Mac rather than Windows.
+- App logo and Monstera(plant) image is made by me. And you **CANNOT USE IT COMERCIALLY.**
 
 
 ### Installation
-
 Clone the repository to your local machine:
 
 ```bash
-https://github.com/DutchVandaline/Raycaster.git
-cd raycaster
+https://github.com/DutchVandaline/plantabit.git
+cd plantabit
 ```
-You may need Visual Studio and OpenGL installed.
 
 
 
