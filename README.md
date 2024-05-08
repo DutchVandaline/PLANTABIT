@@ -1,8 +1,8 @@
 # 🪴PLANTABIT
 
 ## Overview
-<a href="https://apps.apple.com/us/app/plantabit/id1600635708"><img src="https://github.com/DutchVandaline/PLANTABIT/assets/142364450/c8c07908-d8f2-437c-b3c7-b5ffab5be4ac" width=25%, height=25%> <br>
 <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=Dart&logoColor=white"> <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=Flutter&logoColor=white"> <img src="https://img.shields.io/badge/App Store-0D96F6?style=for-the-badge&logo=App Store&logoColor=white"> <br/><br/>
+<a href="https://apps.apple.com/us/app/plantabit/id1600635708"><img src="https://github.com/DutchVandaline/PLANTABIT/assets/142364450/c8c07908-d8f2-437c-b3c7-b5ffab5be4ac" width=25%, height=25%> <br>
 
 This project is called PLANTABIT. It's a to-do list for environment. If you do something environmental, you get some confetti!
 PLANTABIT is a term of PLANT and HABIT.
