@@ -1,16 +1,14 @@
 # 🪴PLANTABIT
 
 ## Overview
-<a href="https://apps.apple.com/us/app/plantabit/id1600635708"><img src="https://img.shields.io/badge/App Store-0D96F6?style=for-the-badge&logo=App Store&logoColor=white">
-
-<img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=Dart&logoColor=white"> <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=Flutter&logoColor=white"><br/><br/>
+<a href="https://apps.apple.com/us/app/plantabit/id1600635708"><img src="https://img.shields.io/badge/App Store-0D96F6?style=for-the-badge&logo=App Store&logoColor=white"><img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=Dart&logoColor=white"><img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=Flutter&logoColor=white"><br/><br/>
 
 This project is called PLANTABIT. It's a to-do list for environment. If you do something environmental, you get some confetti!
 PLANTABIT is a term of PLANT and HABIT.
 
-## Demo
-
+## Preview
 Here's a quick look of PLANTABIT:
+
 
 ## Background
 PLANTABIT doesn't host a server due to huge amount Carbon Dioxide. Also, cooling the server causes a lot of environmental damage.
