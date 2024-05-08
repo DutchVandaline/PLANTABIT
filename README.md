@@ -23,7 +23,7 @@ PLANTABIT doesn't host a server due to huge amount of Carbon Dioxide emition. Ma
 ## Getting Started
 ### Prerequisites
 
-You can find this app only on <a href="https://apps.apple.com/us/app/plantabit/id1600635708">AppStore.
+You can find this app only on <a href="https://apps.apple.com/us/app/plantabit/id1600635708">AppStore.<br>
 If you want to run this app on IDE, ensure you have met the following requirements:
 
 - Dart/Flutter needs to be installed.
