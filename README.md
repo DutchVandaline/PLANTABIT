@@ -8,8 +8,6 @@ This project is a raycasting engine written in C and openGL, inspired by classic
 
 Here's a quick look at what I've built with C and OpenGL:
 
-![raycaster](https://github.com/DutchVandaline/Raycaster/assets/142364450/03da6277-9bc5-4671-958f-54e3005ed1ae)
-
 ## Background
 The White House urged that C/C++ is dangerous due to the garbage collection. So, they wanted to stop developing with C/C++.<br/>I had a Nostalgia and admiration on 1990s to 2000s developers. I decided to make a fps game using C and OpenGL.
 
