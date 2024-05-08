@@ -1,7 +1,7 @@
 # PLANTABIT
 
 ## Overview
-<img src="https://img.shields.io/badge/App Store-0D96F6?style=for-the-badge&logo=App Store&logoColor=white"> <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=Dart&logoColor=white"><img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=Flutter&logoColor=white"><br/><br/>
+<img src="https://img.shields.io/badge/App Store-0D96F6?style=for-the-badge&logo=App Store&logoColor=white"> <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=Dart&logoColor=white"> <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=Flutter&logoColor=white"><br/><br/>
 This project is a raycasting engine written in C and openGL, inspired by classic 3D games like **Wolfenstein** and **Doom**. Raycasting is a rendering technique to create a 3D perspective in a 2D map.
 
 ## Demo
