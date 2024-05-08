@@ -22,7 +22,7 @@ PLANTABIT doesn't host a server due to huge amount of Carbon Dioxide emition. Ma
 
 ## Getting Started
 ### Prerequisites
-<a href="https://apps.apple.com/us/app/plantabit/id1600635708">![image](https://github.com/DutchVandaline/PLANTABIT/assets/142364450/c8c07908-d8f2-437c-b3c7-b5ffab5be4ac)
+<a href="https://apps.apple.com/us/app/plantabit/id1600635708"><img src="https://github.com/DutchVandaline/PLANTABIT/assets/142364450/c8c07908-d8f2-437c-b3c7-b5ffab5be4ac" width=30%, height=30%>
 You can find this app only on <a href="https://apps.apple.com/us/app/plantabit/id1600635708">AppStore.<br>
 
 If you want to run this app on IDE, ensure you have met the following requirements:
