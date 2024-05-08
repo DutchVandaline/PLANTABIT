@@ -1,15 +1,16 @@
-# PLANTABIT
+# 🪴PLANTABIT
 
 ## Overview
 <img src="https://img.shields.io/badge/App Store-0D96F6?style=for-the-badge&logo=App Store&logoColor=white"> <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=Dart&logoColor=white"> <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=Flutter&logoColor=white"><br/><br/>
-This project is a raycasting engine written in C and openGL, inspired by classic 3D games like **Wolfenstein** and **Doom**. Raycasting is a rendering technique to create a 3D perspective in a 2D map.
+This project is called PLANTABIT. It's a to-do list for environment. If you do something environmental, you get some confetti!
+PLANTABIT is a term of PLANT and HABIT.
 
 ## Demo
 
-Here's a quick look at what I've built with C and OpenGL:
+Here's a quick look of PLANTABIT:
 
 ## Background
-The White House urged that C/C++ is dangerous due to the garbage collection. So, they wanted to stop developing with C/C++.<br/>I had a Nostalgia and admiration on 1990s to 2000s developers. I decided to make a fps game using C and OpenGL.
+PLANTABIT doesn't host a server due to huge amount Carbon Dioxide. Also, cooling the server causes a lot of environmental damage.
 
 ## Features
 
