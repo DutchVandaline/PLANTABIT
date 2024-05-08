@@ -1,16 +1,50 @@
-# nature
+# PLANTABIT
 
-A new Flutter project.
+## Overview
+<img src="https://img.shields.io/badge/App Store-0D96F6?style=for-the-badge&logo=App Store&logoColor=white"> <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=Dart&logoColor=white"><img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=Flutter&logoColor=white"><br/><br/>
+This project is a raycasting engine written in C and openGL, inspired by classic 3D games like **Wolfenstein** and **Doom**. Raycasting is a rendering technique to create a 3D perspective in a 2D map.
+
+## Demo
+
+Here's a quick look at what I've built with C and OpenGL:
+
+![raycaster](https://github.com/DutchVandaline/Raycaster/assets/142364450/03da6277-9bc5-4671-958f-54e3005ed1ae)
+
+## Background
+The White House urged that C/C++ is dangerous due to the garbage collection. So, they wanted to stop developing with C/C++.<br/>I had a Nostalgia and admiration on 1990s to 2000s developers. I decided to make a fps game using C and OpenGL.
+
+## Features
+
+- **Real-time rendering** of 2D maps into 3D projections.Of Course, IT'S 2D.
+- **TPS** inspired by <Resident Evil 4>, I made Third Person Shooter with Over-the-shoulder cam.
+- **Blog** written about the detail of each codes.
+
+
+## Code BreakDown
+Code breakdown is in my tech blog. Urls is following. Posts of "Raycaster Breakdown N" is it.<br>
+[Tech-blog, I guess? by Dutch Vandaline](https://dutchvandaline.github.io/)
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+Before you begin, ensure you have met the following requirements:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- C/C++ installed on your machine
+- I recommend you to use Visual Studio if your using on Windows.
+- Animation Sprite of player and monster is divided from main code.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+### Installation
+
+Clone the repository to your local machine:
+
+```bash
+https://github.com/DutchVandaline/Raycaster.git
+cd raycaster
+```
+You may need Visual Studio and OpenGL installed.
+
+
+
+
