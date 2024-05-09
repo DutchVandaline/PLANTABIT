@@ -27,6 +27,8 @@ PLANTABIT doesn't host a server due to huge amount of Carbon Dioxide emition. Ma
 ### Prerequisites
 You can find this app only on <a href="https://apps.apple.com/us/app/plantabit/id1600635708">AppStore.<br>
 
+![5](https://github.com/DutchVandaline/PLANTABIT/assets/142364450/ceb73c0b-7c66-4c50-a005-30c816c6c7d2)
+
 If you want to run this app on IDE, ensure you have met the following requirements:
 
 - Dart/Flutter needs to be installed.
@@ -41,7 +43,7 @@ Clone the repository to your local machine:
 https://github.com/DutchVandaline/plantabit.git
 cd plantabit
 ```
-![5](https://github.com/DutchVandaline/PLANTABIT/assets/142364450/ceb73c0b-7c66-4c50-a005-30c816c6c7d2)
+
 
 
 
