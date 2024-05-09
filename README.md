@@ -41,6 +41,7 @@ Clone the repository to your local machine:
 https://github.com/DutchVandaline/plantabit.git
 cd plantabit
 ```
+![5](https://github.com/DutchVandaline/PLANTABIT/assets/142364450/ceb73c0b-7c66-4c50-a005-30c816c6c7d2)
 
 
 
