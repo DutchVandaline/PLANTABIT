@@ -145,7 +145,7 @@ class _EditTodoScreenState extends State<EditTodoScreen> {
                             borderSide: BorderSide(color: Colors.transparent)),
                         hintText: "들이고 싶은 습관을 수정하세요.",
                       ),
-                      cursorColor: Theme.of(context).accentColor,
+                      cursorColor: Theme.of(context).focusColor,
                       autofocus: false,
                     ),
                   ),
@@ -190,7 +190,7 @@ class _EditTodoScreenState extends State<EditTodoScreen> {
                             borderSide: BorderSide(color: Colors.transparent)),
                         hintText: "습관과 관련된 메모를 수정하세요.",
                       ),
-                      cursorColor: Theme.of(context).accentColor,
+                      cursorColor: Theme.of(context).focusColor,
                     ),
                   ),
                 ),
@@ -209,7 +209,7 @@ class _EditTodoScreenState extends State<EditTodoScreen> {
                     height: 50.0,
                     width: MediaQuery.of(context).size.width * 0.9,
                     decoration: BoxDecoration(
-                        color: Theme.of(context).accentColor,
+                        color: Theme.of(context).focusColor,
                         borderRadius: BorderRadius.circular(17.0)),
                     child: Center(
                         child: Text(

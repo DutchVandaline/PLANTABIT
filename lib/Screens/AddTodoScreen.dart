@@ -98,7 +98,7 @@ class _AddTodoScreenState extends State<AddTodoScreen> {
                             borderSide: BorderSide(color: Colors.transparent)),
                         hintText: "들이고 싶은 습관을 입력하세요",
                       ),
-                      cursorColor: Theme.of(context).accentColor,
+                      cursorColor: Theme.of(context).focusColor,
                       autofocus: true,
                     ),
                   ),
@@ -150,7 +150,7 @@ class _AddTodoScreenState extends State<AddTodoScreen> {
                             borderSide: BorderSide(color: Colors.transparent)),
                         hintText: "습관과 관련된 메모를 입력하세요.",
                       ),
-                      cursorColor: Theme.of(context).accentColor,
+                      cursorColor: Theme.of(context).focusColor,
                     ),
                   ),
                 ),
@@ -162,19 +162,14 @@ class _AddTodoScreenState extends State<AddTodoScreen> {
                   onTap: () {
                     setState(() {
                       updatePlantState(context);
-                      if (inputTodo == todoSampleList[5] && memo == "타일러 더든") {
-                        print("fightclub");
-                        saveFightClub(context);
-                      } else {
-                        saveTodo(context);
-                      }
+                      saveTodo(context);
                     });
                   },
                   child: Container(
                     height: 50.0,
                     width: MediaQuery.of(context).size.width * 0.9,
                     decoration: BoxDecoration(
-                        color: Theme.of(context).accentColor,
+                        color: Theme.of(context).focusColor,
                         borderRadius: BorderRadius.circular(17.0)),
                     child: Center(
                         child: Text(

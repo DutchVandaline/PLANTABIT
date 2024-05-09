@@ -1,7 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:PlanTodo/DataBase/DataBase.dart';
 
-import '../ListInput.dart';
 
 class TodoNotifier extends ChangeNotifier {
   List _whatTodoes = [];

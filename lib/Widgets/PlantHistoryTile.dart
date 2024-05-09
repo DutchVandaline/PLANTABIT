@@ -82,7 +82,7 @@ class _PlantHistoryTileState extends State<PlantHistoryTile> {
                     width: MediaQuery.of(context).size.width * 0.9 * currentState / 100,
                     height: MediaQuery.of(context).size.height * 0.07,
                     decoration: BoxDecoration(
-                      color: Theme.of(context).accentColor,
+                      color: Theme.of(context).focusColor,
                       borderRadius: BorderRadius.all(Radius.circular(15.0)),
                     ),
                   ),

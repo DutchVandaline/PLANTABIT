@@ -54,7 +54,6 @@ flutter:
     - images/monstera.png
     - images/monsteraback.jpg
     - images/splashscreen.jpg
-    - images/quizscreen.jpg
 
   fonts:
   - family: NanumGothicCoding

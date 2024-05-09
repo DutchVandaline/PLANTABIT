@@ -60,7 +60,7 @@ class _PlantWidgetSubState extends State<PlantWidgetSub> {
                       (widget.currentPlant.currentState /
                           widget.currentPlant.fullState),
                   width: MediaQuery.of(context).size.width * 0.5,
-                  color: Theme.of(context).accentColor,
+                  color: Theme.of(context).focusColor,
                 ),
                 Container(
                     height: MediaQuery.of(context).size.width * 0.5,

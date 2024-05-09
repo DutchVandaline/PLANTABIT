@@ -8,7 +8,6 @@ import 'package:provider/provider.dart';
 import 'AddTodoScreen.dart';
 
 bool trackVisibility = true;
-bool trackAgreed = false;
 bool showAgreement = false;
 int i = 0;
 
@@ -65,72 +64,66 @@ class _HomeScreenState extends State<HomeScreen> {
               mainAxisAlignment: MainAxisAlignment.start,
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-                Visibility(
-                  visible: trackAgreed,
-                  child: Column(
-                    children: [
-                      FutureBuilder(
-                        future: Provider.of<PlantNotifier>(context).getPlant(),
-                        builder: (context, AsyncSnapshot snapshot) {
-                          return Consumer<PlantNotifier>(
-                              builder: (context, currentplant, child) {
-                            if (currentplant.growingplant.length == 0) {
-                              return PlantDummyWidget();
-                            } else {
-                              return PlantWidgetSub(
-                                currentPlant: currentplant.growingplant.last,
-                                fromNewScreen: false,
-                              );
-                            }
-                          });
-                        },
-                      ),
-                    ],
-                  ),
+                Column(
+                  children: [
+                    FutureBuilder(
+                      future: Provider.of<PlantNotifier>(context).getPlant(),
+                      builder: (context, AsyncSnapshot snapshot) {
+                        return Consumer<PlantNotifier>(
+                            builder: (context, currentplant, child) {
+                          if (currentplant.growingplant.length == 0) {
+                            return PlantDummyWidget();
+                          } else {
+                            return PlantWidgetSub(
+                              currentPlant: currentplant.growingplant.last,
+                              fromNewScreen: false,
+                            );
+                          }
+                        });
+                      },
+                    ),
+                  ],
                 ),
-                Visibility(
-                  visible: trackAgreed,
-                  child: Expanded(
-                    child: FutureBuilder(
-                        future:
-                            Provider.of<TodoNotifier>(context, listen: false)
-                                .getTodo(),
-                        builder: (context, AsyncSnapshot snapshot) {
-                          return Scaffold(
-                            body: Consumer<TodoNotifier>(
-                              builder: (context, todoData, child) {
-                                return todoData.whatTodoes.length <= 0
-                                    ? Container(
-                                        alignment: Alignment.center,
-                                        child: Text(
-                                          '할일이 없습니다',
-                                          style: Theme.of(context)
-                                              .textTheme
-                                              .bodyText1!
-                                              .copyWith(
-                                                  fontSize: 20.0,
-                                                  fontWeight:
-                                                      FontWeight.normal),
-                                          textAlign: TextAlign.center,
-                                        ),
-                                      )
-                                    : ListView.builder(
-                                        scrollDirection: Axis.vertical,
-                                        itemCount: todoData.whatTodoes.length,
-                                        itemBuilder: (context, index) {
-                                          final i = index;
-                                          final todoitem =
-                                              todoData.whatTodoes[i];
-                                          return TodoListTile(
-                                            whatTodo: todoitem,
-                                            fromNewScreen: false,
-                                          );
-                                        });
-                              },
-                            ),
-                          );
-                        }),
-                  ),
+                Expanded(
+                  child: FutureBuilder(
+                      future:
+                          Provider.of<TodoNotifier>(context, listen: false)
+                              .getTodo(),
+                      builder: (context, AsyncSnapshot snapshot) {
+                        return Scaffold(
+                          body: Consumer<TodoNotifier>(
+                            builder: (context, todoData, child) {
+                              return todoData.whatTodoes.length <= 0
+                                  ? Container(
+                                      alignment: Alignment.center,
+                                      child: Text(
+                                        '할일이 없습니다',
+                                        style: Theme.of(context)
+                                            .textTheme
+                                            .bodyText1!
+                                            .copyWith(
+                                                fontSize: 20.0,
+                                                fontWeight:
+                                                    FontWeight.normal),
+                                        textAlign: TextAlign.center,
+                                      ),
+                                    )
+                                  : ListView.builder(
+                                      scrollDirection: Axis.vertical,
+                                      itemCount: todoData.whatTodoes.length,
+                                      itemBuilder: (context, index) {
+                                        final i = index;
+                                        final todoitem =
+                                            todoData.whatTodoes[i];
+                                        return TodoListTile(
+                                          whatTodo: todoitem,
+                                          fromNewScreen: false,
+                                        );
+                                      });
+                            },
+                          ),
+                        );
+                      }),
                 ),
               ],
             ),

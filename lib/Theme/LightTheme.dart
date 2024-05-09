@@ -8,7 +8,7 @@ class LightTheme {
         bodyText2: TextStyle(
             color: Colors.black, fontSize: 17.0, fontWeight: FontWeight.normal),
         subtitle1: TextStyle(
-            color: Colors.black, fontSize: 18.0, fontWeight: FontWeight.normal),
+            color: Colors.black, fontSize: 18.0, fontWeight: FontWeight.bold),
         subtitle2: TextStyle(
             color: Colors.black, fontSize: 30.0, fontWeight: FontWeight.bold),
         headline1: TextStyle(
@@ -20,7 +20,7 @@ class LightTheme {
       primaryColor: Color(0xFFe5e3d8),
       scaffoldBackgroundColor: Color(0xFFe5e3d8),
       cardColor: Colors.white,
-      accentColor: Color(0xFF549e66),
+      focusColor: Color(0xFF549e66),
       canvasColor: Colors.white,
       shadowColor: Color(
           0xFF708777), //,0xFFECB365, 0xFFead57f, 0xFFFABB51, 0xFFead5d9, 0xFF708777, 0xFFfae696

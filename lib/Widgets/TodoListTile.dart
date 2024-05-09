@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'dart:math';
 import 'package:PlanTodo/DataBase/PlantDataBase.dart';
+import 'package:PlanTodo/ListInput.dart';
 import 'package:PlanTodo/Modules/PlantNotifier.dart';
 import 'package:confetti/confetti.dart';
 import 'package:flutter/material.dart';
@@ -94,6 +95,7 @@ class _TodoListTileState extends State<TodoListTile> {
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: Stack(
+              alignment: Alignment.centerLeft,
               children: [
                 Container(
                   height: widget.fromNewScreen
@@ -111,10 +113,34 @@ class _TodoListTileState extends State<TodoListTile> {
                       : MediaQuery.of(context).size.height * 0.095,
                   width: _animationWidth,
                   decoration: BoxDecoration(
-                    color: Theme.of(context).accentColor,
+                    color: Theme.of(context).focusColor,
                     borderRadius: BorderRadius.all(Radius.circular(15.0)),
                   ),
                   duration: Duration(milliseconds: 300),
+                ),
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        widget.whatTodo.whatTodo,
+                        style: Theme.of(context)
+                            .textTheme
+                            .subtitle1,
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.only(left: 30.0),
+                        child: Text(
+                          widget.whatTodo.memo,
+                          overflow: TextOverflow.ellipsis,
+                          maxLines: 1,
+                          style: Theme.of(context).textTheme.bodyText2!.copyWith(fontSize: 15.0),
+                        ),
+                      ),
+                    ],
+                  ),
                 ),
               ],
             ),

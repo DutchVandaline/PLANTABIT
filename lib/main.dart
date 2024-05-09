@@ -6,7 +6,6 @@ import 'package:PlanTodo/Theme/LightTheme.dart';
 import 'package:PlanTodo/Modules/TodoNotifier.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
-import 'Theme/LightTheme.dart';
 
 ThemeData fightTheme = LightTheme().theme;
 

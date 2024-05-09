@@ -67,7 +67,7 @@ class InitialScreen extends StatelessWidget {
                     },
                     child: Container(
                       decoration: BoxDecoration(
-                        color: Theme.of(context).accentColor,
+                        color: Theme.of(context).focusColor,
                         borderRadius: BorderRadius.circular(17.0),
                       ),
                       height: 50.0,
