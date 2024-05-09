@@ -10,7 +10,8 @@ PLANTABIT is a term of PLANT and HABIT.
 ## Preview
 Here's a quick look of PLANTABIT:
 
-![PLANTABIT](https://github.com/DutchVandaline/PLANTABIT/assets/142364450/11b014bc-2e9e-4075-bc9a-ec4a89a07a45)
+![image](https://github.com/DutchVandaline/PLANTABIT/assets/142364450/42214eb8-ce11-421a-b78c-17d458209f88)
+
 
 ## Background
 PLANTABIT doesn't host a server due to huge amount of Carbon Dioxide emition. Maintaining server causes a lot of environmental damage.
